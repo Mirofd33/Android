@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="68dp"
+        android:src="@mipmap/a"
+        android:layout_marginRight="8dp"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:layout_weight="1dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="华为注意高通在芯片上又领先了"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="今天|领书 评测 华为 高通"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
