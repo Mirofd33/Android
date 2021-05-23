@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.androidhomework3.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入你的身高："
+        />
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="以cm为单位的身高"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择所属性别"
+        />
+    <RadioGroup
+        android:id="@+id/rg_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="男"/>
+
+        <RadioButton
+            android:id="@+id/rb_famle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="女"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn_compute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计算标准体重"
+        />
+
+
+
+</LinearLayout>
