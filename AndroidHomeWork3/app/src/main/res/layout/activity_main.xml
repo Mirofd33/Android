@@ -35,7 +35,7 @@
             android:text="男"/>
 
         <RadioButton
-            android:id="@+id/rb_famle"
+            android:id="@+id/rb_female"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="女"
@@ -46,6 +46,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="计算标准体重"
+        />
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="标准体重显示区"
+        android:textSize="30sp"
+        android:textColor="#000"
         />
 
 
