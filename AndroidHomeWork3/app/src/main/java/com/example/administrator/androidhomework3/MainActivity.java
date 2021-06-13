@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         //
         mBtnCompute = findViewById(R.id.btn_compute);
 
+        mTvResult = findViewById(R.id.tv_result);
+
         //为按钮绑定clik事件处理方法
         mBtnCompute.setOnClickListener(new.View.OnClickListenner(){
 
@@ -48,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 }else if(id==R.id.rb_female){
                     //是女性 女性的标准体重计算公式=（身高cm-100）*0.9(kg)-2.5kg
                     int standarweight =(int)((height-100)*0.9-2.5);
-                    
+
                     mTvResult.setText("标准体重是："+standarweight+"KG");
 
 
